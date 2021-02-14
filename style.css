@@ -5,8 +5,8 @@ body {
 }
 #grille {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
     /*grid-column-gap: 10px;
     grid-row-gap: 15px;*/
     grid-gap: 10px;
@@ -24,6 +24,8 @@ body {
 
 #un {
     background-color: #f90;
+    grid-column-start: 1;
+    grid-column-end: 3;
 }
 #deux {
     background-color: #fc0;
@@ -38,6 +40,8 @@ body {
 
 #cinq {
     background-color: #ffe;
+    grid-column: 2;
+    grid-column-end: 4;
 }
 
 #six {
