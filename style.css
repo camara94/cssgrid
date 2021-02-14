@@ -1,0 +1,9 @@
+#grille1 {
+    display: inline-grid;
+    background-color: yellow;
+}
+
+#grille2 {
+    display: inline-grid;
+    background-color: #db9b10e8;
+}
