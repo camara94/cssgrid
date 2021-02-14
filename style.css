@@ -1,9 +1,46 @@
-#grille1 {
-    display: inline-grid;
-    background-color: yellow;
+body {
+    margin: 0;
+    padding: 0;
+}
+#grille {
+    display: grid;
+    grid-template-columns: 10% 50% 40%;
 }
 
-#grille2 {
-    display: inline-grid;
-    background-color: #db9b10e8;
+#grille div {
+    text-align: center;
+    font-size: 20px;
+    border: .5px solid;
+    padding: 10px;
+    font-weight: bold;
+}
+
+#un {
+    background-color: #f90;
+}
+#deux {
+    background-color: #fc0;
+}
+#trois {
+    background-color: #f96;
+}
+
+#quatre {
+    background-color: #fac;
+}
+
+#cinq {
+    background-color: #ffe;
+}
+
+#six {
+    background-color: #0fe;
+}
+
+#sept {
+    background-color: #52e;
+}
+
+#huit {
+    background-color: #4af;
 }
