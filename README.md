@@ -59,3 +59,9 @@ Les propriétés **justify-items** et **align-items** permettent d'aligner selon
 * start
 * end
 * stretch (valeur par defaut)
+
+## JUSTIFY-SELF ET ALIGN-SELF
+Les propriétés **justify-self** et **align-self** permettent d'aligner les éléments enfants selon les axes horizontal et vertical:
+* start
+* end
+* stretch (valeur par defaut)
