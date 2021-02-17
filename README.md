@@ -51,5 +51,11 @@ La propriété **justify-content** permet de centrer un élément de façon hori
 * *space-around* crée des espaces autours des éléments enfants, mais le premier espace et le dernier espace sont chacun égaux à la moitié des des espaces à l'interieur
 * *space-evenly* crée des espace égaux autours des éléments enfants
   
-  ## ALIGN-CONTENT
-  La propriété **align-content** permet de centrer un élément de façon verticale, elle prend les mêmes valeurs que la propriétés que **justifify-content**:
+## ALIGN-CONTENT
+La propriété **align-content** permet de centrer un élément de façon verticale, elle prend les mêmes valeurs que la propriétés que **justifify-content**:
+
+## JUSTIFY-ITEMS ET ALIGN-ITEMS
+Les propriétés **justify-items** et **align-items** permettent d'aligner selon les axes horizontal et vertical:
+* start
+* end
+* stretch (valeur par defaut)
