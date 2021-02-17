@@ -1,0 +1,45 @@
+body {
+    padding: 0px;
+    margin: 0px;
+}
+#grille {
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+    grid-template-rows: repeat(2, 100px);
+    justify-content: space-evenly;
+    height: 500px;
+   
+    border-color: #fff;
+}
+
+#grille div {
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    border: 1px solid;
+}
+
+#un {
+    background-color: #f90;
+}
+
+#deux {
+    background-color: #fc0
+}
+
+#trois {
+    background-color: #f96;
+}
+
+#quatre {
+    background-color: #fc6;
+}
+
+#cinq {
+    background-color: #f96;
+}
+
+#six {
+    background-color: #f96;
+}
