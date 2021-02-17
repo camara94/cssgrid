@@ -41,3 +41,15 @@ A la fin de cette formation, vous serez parfaitement opérationnel pour mettre e
 * Savoir éditer de lignes et de colonnes et définir les zones CSS
 * Apprendre la manipulation du desktop et mobile first
 * Savoir travailler avec les Medias Queries
+
+## JUSTIFY-CONTENT
+La propriété **justify-content** permet de centrer un élément de façon horizontale, elle prend les valeurs:
+* *start (valeur part defaut)* qui positionne l'élément à gauche
+* *stretch* qui permet d'étendre les éléments en enfants 
+* *center* qui permet de centrer les éléments enfants
+* *space-between* qui fixe les enfants aux deux bords tout en créant un espacement à l'interieur entre les éléments enfants
+* *space-around* crée des espaces autours des éléments enfants, mais le premier espace et le dernier espace sont chacun égaux à la moitié des des espaces à l'interieur
+* *space-evenly* crée des espace égaux autours des éléments enfants
+  
+  ## ALIGN-CONTENT
+  La propriété **align-content** permet de centrer un élément de façon verticale, elle prend les mêmes valeurs que la propriétés que **justifify-content**:
